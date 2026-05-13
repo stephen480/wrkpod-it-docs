@@ -1,0 +1,105 @@
+Wrkpod, Inc. - NOC Escalation – Standard Operating Procedure (SOP)
+Network & Performance Data Collection
+Purpose
+To ensure complete and standardized data is gathered before escalating any network-related issues (e.g., slow internet, high latency, unstable connection) to the NOC team.
+ All screenshots and test results must be attached to the escalation ticket or email.
+
+1. Prepare the Workstation
+Before running any tests, ensure accurate network readings:
+Disable VPN
+
+
+Disconnect or turn off any active VPN connections.
+
+
+Use LAN Only
+
+
+Turn off Wi-Fi.
+
+
+Ensure the device is connected via LAN (Ethernet) cable only.
+
+
+
+2. Collect Network Configuration Details
+Internal & Full IP Details
+Open Command Prompt or PowerShell
+
+
+Run the command:
+
+ ipconfig /all
+
+
+Screenshot the full output
+
+
+External/Public IP
+Go to:https://ifconfig.com/
+Screenshot the page showing the public IP
+
+
+
+
+3. Run Performance & Latency Tests
+Perform all 3 tests below and take screenshots.
+a. Speedtest.net
+Go to: https://www.speedtest.net
+
+
+Set server to: Makati – Rise
+
+
+Run test and screenshot Ping, Download, Upload
+
+
+b. M-Lab Test
+Use Google’s internet speed test or: https://speed.measurementlab.net
+
+
+Run Network Diagnostic Test and screenshot results
+
+
+c. Bufferbloat (Waveform) Test
+Search: “bufferbloat test” or open https://www.waveform.com/tools/bufferbloat from any browser
+Run test fully and screenshot the final results (showing latency rating)
+
+
+
+4. Capture Workstation Performance
+Open Task Manager (Ctrl+Shift+Esc)
+
+
+Go to Performance tab
+
+
+Screenshot CPU, Memory, and Network usage graphs
+
+
+
+5. Tracert the target IP
+Open Command Prompt
+
+
+Type and enter: Tracert [Target IP Address]
+
+
+Screenshot the result
+6. Prepare for Escalation
+Before submitting to NOC/JD:
+✅ Attach all screenshots collected from:
+Section 2: Network Configuration
+
+
+Section 3: Speed & Latency Tests
+
+
+Section 4: System Performance
+Section 5: Tracert the target IP
+
+
+✅ Use a clear subject line:
+Example: Network Performance Issue – [Workstation Name / IP]
+
+End of Procedure
