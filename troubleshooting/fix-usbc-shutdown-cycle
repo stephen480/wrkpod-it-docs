@@ -1,1 +1,8 @@
+Fix: Dell Monitor/Laptop USB-C Handshake Shutdown Loop
 
+1. Restart your laptop and tap F2 repeatedly to enter the BIOS.
+2. Navigate to the Advanced Setup section and toggle it ON.
+3. Navigate to the Power section.
+4. Scroll down to USB Wake Support section.
+5. Find Wake on Dell USB-C Dock and toggle it OFF.
+6. Press F10 to save and exit.
