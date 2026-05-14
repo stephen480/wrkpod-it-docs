@@ -1,1 +1,15 @@
+Fix: Reformat Bitlocker Enabled Acer TravelMate P
 
+Quick Steps:
+1. USB: Make Windows 11 bootable USB.
+2. BIOS: Boot → F2/F12.
+3. VMD Controller: Main tab → Ctrl + S → Disable.
+4. Boot Order: Boot tab → USB first → Save & Exit.
+5. Disk Clean:
+   diskpart
+   list disk
+   select disk 0
+   clean
+   exit
+
+6. Install Windows: Fresh install → Reinstall drivers via Windows Update / Acer Support.
