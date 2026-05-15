@@ -1,1 +1,6 @@
+Fix: Enable Claude Cowork
 
+1. Go to windows features.
+2. Turn on Virtual Machine Platform and Windows Hypervisor Platform.
+3. Restart your computer.
+4. Reinstall Claude desktop for Windows.
